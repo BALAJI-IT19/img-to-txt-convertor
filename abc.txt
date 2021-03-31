@@ -1,0 +1,40 @@
+P Online Python Compiler (Interpr X - x
+
+ 
+
+ 
+
+ 
+
+€ C — @ programiz.com/python-programming/online-compiler/ x @©nA@:
+Programiz 4.7 trillion security events managed
+Python Online Compiler every raatevaidane
+| @ | main.py J Run | Shell Clear
+
+1 from math import log, ceil Remainder: 100
+2 Codeword : 10011101100
+3~ def CRC(dataword, generator): >
+4 dword = int(dataword, 2)
+5 1_gen = len(generator)
+6 dividend = dword << (l_gen - 1)
+
+Ks 7 shft = ceil(log(dividend + 1, 2)) - l_gen
+
+~ 8 generator = int(generator, 2)
+9
+10> while dividend >= generator or shft >= 0:
+1 rem = (dividend >> shft) * generator
+12 dividend = (dividend & ((1 << shft) - 1)) | (rem << shft)
+13 shft = ceil(log(dividend+1, 2)) - l_gen
+14 codeword = dword << (1_gen-1)|dividend
+15 print("Remainder:", bin(dividend).1lstrip("-0b"))
+16 print("Codeword :", bin(codeword).1strip("-0b")),
+
+17. dataword = "10011101"
+18 generator = "1001"
+19 CRC(dataword, generator)
+
+ 
+
+a | P Type here to search
+
